@@ -44,5 +44,8 @@ namespace comp123___week09_lesson_a
         {
             this.Name = name;
         }
+
+        public abstract void DisplaySkills();
+
     }
 }

@@ -18,7 +18,19 @@ namespace comp123___week09_lesson_a
     /// </summary>
     public class Power
     {
+        // PUBLIC PROPERTIES
         public string Name { get; set; }
         public int Rank { get; set; }
+
+        /// <summary>
+        /// This is the power constructor
+        /// Takes two parameters - name (string) - rank (int)
+        /// </summary>
+        // CONSTRUCTORS ---------------------------------------------------
+        public Power(string name, int rank)
+        {
+            Name = name;
+            Rank = rank;
+        }
     }
 }
